@@ -5,68 +5,56 @@ body, h1, h2, h3, h4, h5, h6, .th-wide {font-family: NanumGothic,sans-serif}
 }
 /* max-width:980px 이거 왜 980이지? */
 
-.th-sidebar{
-    height:100%; width:200px; background-color:#fff; position:fixed!important;
-            z-index:1; overflow:auto
+.th-sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
 }
-
 .th-sidebar a {
     font-family: "Roboto",sans-serif
 }
-
-.th-bar-block {width:100%}
-
-.th-white, .th-hover-white:hover {
-    color:#000 !important; background-color:#fff !important
-}
-
-.th-top , th-bottom {
-    position:fixed; width:100%;
-}
-
-.th-top {
-    z-index: 3; width: 250px;
-}
-.th-display-container{position:relative}
-
-.th-display-container:hover{display:inline-block;}
 
 .th-padding-16 {
     padding-top: 16px !important;
     padding-bottom: 16px !important
 }
-
 .th-padding-24 {
     padding-top: 24px !important;
     padding-bottom: 24px !important
 }
-
 .th-padding-32 {
     padding-top: 32px !important;
     padding-bottom: 32px !important
 }
-
 .th-padding-48 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+.th-padding-64 {
     padding-top: 48px !important;
     padding-bottom: 48px !important
 }
 
+.th-text-gray {
+    color: #757575 !important; 
+    font-weight: bold;
+}
 .th-hide-large {
     display: none !important
 }
 
 .th-button {
+    width: 100%;
     border: none;
-    display: inline-block;
     padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: inherit;
-    text-align: center;
     cursor: pointer;
-    white-space: nowrap
+    white-space: nowrap;
+    float: left;
 }
 
 .th-display-topright {
@@ -77,4 +65,14 @@ body, h1, h2, h3, h4, h5, h6, .th-wide {font-family: NanumGothic,sans-serif}
 
 .th-wide {
     letter-spacing: 4px
+}
+
+.th-left-align {
+    text-align: left !important
+}
+.th-show {
+    display: block !important
+}
+.th-hide {
+    display: none 
 }
